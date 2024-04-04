@@ -5,6 +5,7 @@ import pytesseract
 from pytesseract import Output, TesseractError
 from functions import convert_pdf_to_txt_pages, convert_pdf_to_txt_file, save_pages, displayPDF, images_to_txt
 
+
 st.set_page_config(page_title="PDF to Text")
 
 
